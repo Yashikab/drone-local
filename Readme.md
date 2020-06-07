@@ -21,7 +21,7 @@ qiita的にはとりあえずlocalhostで動かしているが
 まず `DRONE_SECRET` 用文字列作成
 
 ```bash
- uby -r securerandom -e "puts SecureRandom.urlsafe_base64"
+ruby -r securerandom -e "puts SecureRandom.urlsafe_base64"
 ```
 
 ↑なくても動くかはやってみる
